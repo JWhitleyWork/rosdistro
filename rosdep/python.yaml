@@ -9472,16 +9472,6 @@ python3-sparkfun-ublox-gps-pip:
   ubuntu:
     pip:
       packages: [sparkfun-ublox-gps]
-python3-spconv-pip:
-  debian:
-    pip:
-      packages: [spconv]
-  fedora:
-    pip:
-      packages: [spconv]
-  ubuntu:
-    pip:
-      packages: [spconv]
 python3-spconv-cuda-114-pip:
   debian:
     pip:
@@ -9522,6 +9512,16 @@ python3-spconv-cuda-118-pip:
   ubuntu:
     pip:
       packages: [spconv-cu118]
+python3-spconv-pip:
+  debian:
+    pip:
+      packages: [spconv]
+  fedora:
+    pip:
+      packages: [spconv]
+  ubuntu:
+    pip:
+      packages: [spconv]
 python3-sphinx:
   debian: [python3-sphinx]
   fedora: [python3-sphinx]
